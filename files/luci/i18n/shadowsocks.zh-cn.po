@@ -1,8 +1,8 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
-msgid "ShadowSocks"
-msgstr "ShadowSocks"
+msgid "ShadowSocksR"
+msgstr "ShadowSocksR"
 
 msgid "Enable"
 msgstr "启用"
@@ -13,8 +13,8 @@ msgstr "停用"
 msgid "ShadowSocksR is running"
 msgstr "ShadowSocksR 运行中"
 
-msgid "ShadowSocks is not running"
-msgstr "ShadowSocks 未运行"
+msgid "ShadowSocksR is not running"
+msgstr "ShadowSocksR 未运行"
 
 msgid "Global Setting"
 msgstr "全局设置"
@@ -63,6 +63,9 @@ msgstr "传输协议"
 
 msgid "obfs"
 msgstr "混淆插件"
+
+msgid "obfs_param(optional)"
+msgstr "混淆参数(可选)"
 
 msgid "UDP Forward"
 msgstr "UDP转发"

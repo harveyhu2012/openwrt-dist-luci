@@ -48,7 +48,7 @@ local protocol = {
 obfs = {
 	"plain",
 	"http_simple",
-	"tls1.0_session_auth",
+	"tls1.2_ticket_auth",
 }
 
 ipkg.list_installed("shadowsocks-libev-spec-polarssl", function(n, v, d)
@@ -122,6 +122,8 @@ o.rmempty = false
 o = s:option(ListValue, "obfs", translate("obfs"))
 for _, v in ipairs(obfs) do o:value(v) end
 o.rmempty = false
+
+o = s:option(Value, "obfs_param", translate("obfs_param(optional)"))
 
 -- [[ UDP Forward ]]--
 s = m:section(TypedSection, "udp_forward", translate("UDP Forward"))
